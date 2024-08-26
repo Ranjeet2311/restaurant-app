@@ -31,7 +31,7 @@ export default function ProductDetails() {
           <div className="price mb-4">{selectedProduct?.price}</div>
           <div className="product-actions">
             <button className="btn w-100" onClick={handleAddToCart}>
-              Add
+              Add to Cart
             </button>
           </div>
         </div>
